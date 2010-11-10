@@ -1,0 +1,24 @@
+github
+
+git@github.com:luan78zao/my-book.git
+
+全局设置：
+ 下载并安装 Git
+  git config --global user.name "Your Name"
+  git config --global user.email wang.chao.email@gmail.com
+  Add your public key
+        
+下一步：
+  mkdir my-book
+  cd my-book
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:luan78zao/my-book.git
+  git push origin master
+      
+现有的 Git 仓库？
+  cd existing_git_repo
+  git remote add origin git@github.com:luan78zao/my-book.git
+  git push origin master
